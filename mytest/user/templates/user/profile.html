@@ -1,0 +1,11 @@
+{% extends 'category/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+{% for message in messages %}
+{{message}}
+{% endfor %}
+<h1 class="text-center text-info my-3">Profile Page</h1>
+
+
+{% endblock %}

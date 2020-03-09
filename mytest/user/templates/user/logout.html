@@ -1,0 +1,9 @@
+{% extends 'category/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<h1 class="text-center text-info my-3">You are already logged out</h1>
+<a href="{% url 'user-login' %}">Go to Login</a>
+
+
+{% endblock %}
